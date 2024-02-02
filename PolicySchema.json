@@ -1,14 +1,16 @@
 {
   "type": "object",
-  "required": ["Number", "InsuranceCompanyId"],
+  "required": ["id", "username"],
   "properties": {
-    "Number": {
-      "description": "The insurance company policy number or unique identifier.",
+    "id": {
+      "type": "integer"
+    },
+    "username": {
       "type": "string"
     },
-    "InsuranceCompanyId": {
-      "description": "The unique identifier of the insurance company that had issued the policy.",
-      "type": "string"
+    "email": {
+      "type": "string",
+      "format": "email"
     }
   }
 }
