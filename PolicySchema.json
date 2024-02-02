@@ -5,6 +5,7 @@
       "required": ["Number"],
       "properties": {
         "Number": {
+          "description": "The Insurance Company Policy Number. It's the Policy unique identifier at the Insurance Company.",
           "type": "string"
         }
       }
