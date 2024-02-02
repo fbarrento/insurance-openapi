@@ -7,6 +7,11 @@
         "Number": {
           "description": "The Insurance Company Policy Number. It's the Policy unique identifier at the Insurance Company.",
           "type": "string"
+        },
+        "InsuranceCompanyID": {
+          "description": "The unique identifier of the company that had issued the Insurance Policy.",
+          "type": "string",
+          "format": "uuid"
         }
       }
     }
