@@ -1,15 +1,14 @@
 {
   "type": "object",
+  "required": ["Number", "InsuranceCompanyId"],
   "properties": {
     "Number": {
       "description": "The insurance company policy number or unique identifier.",
-      "type": "string",
-      "example": "efwef-wefwef3r3-wefwef"
+      "type": "string"
     },
     "InsuranceCompanyId": {
       "description": "The unique identifier of the insurance company that had issued the policy.",
-      "type": "string",
-      "example": "efwef-wefwef3r3-wefwef"
+      "type": "string"
     }
   }
 }
