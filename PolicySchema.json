@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "Number": {
-      "description": "The insurance company policy number or unique identifier."
+      "description": "The insurance company policy number or unique identifier.",
       "type": "string"
     }
   }
