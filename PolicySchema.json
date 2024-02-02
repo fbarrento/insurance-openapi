@@ -1,18 +1,16 @@
 {
-  "Policy": {
-    "type": "object",
-    "required": ["id", "username"],
-    "properties": {
-      "id": {
-        "type": "integer"
-      },
-      "username": {
-        "type": "string"
-      },
-      "email": {
-        "type": "string",
-        "format": "email"
-      }
+  "type": "object",
+  "required": ["id", "username"],
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
     }
   }
 }
